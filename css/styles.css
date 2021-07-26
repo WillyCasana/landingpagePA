@@ -136,3 +136,11 @@ body{
     max-width: 100%!important;
     min-width: 100%!important;
  }
+
+ *{
+    font-family: 'Lato';
+ }
+
+ .text-primary{
+    color:rgb(10,63,168)!important;
+ }
