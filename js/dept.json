@@ -1,0 +1,96 @@
+{
+  "departamento": [
+    {
+      "id": 1,
+      "ciudad": "CHICLAYO",
+      "videos": [
+        {
+          "nombre": "Braulio Vasquez",
+          "area": "Cobranza",
+          "link": "https://www.youtube.com/embed/3sQvVFAUZpo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "ciudad": "TRUJILLO",
+      "videos": [
+        {
+          "nombre": "Jeanluigui Plasencia Arriaga",
+          "area": "Eficiencia",
+          "link": "https://www.youtube.com/embed/cWRzZJv6dTw"
+        },
+        {
+          "nombre": "Jhonatan Lujan Alva",
+          "area": "Eficiencia",
+          "link": "https://www.youtube.com/embed/icnXdUDwc4g"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "ciudad": "LIMA",
+      "videos": [
+        {
+          "nombre": "Pamela Vigo",
+          "area": "Eficiencia",
+          "link": "https://www.youtube.com/embed/bOSbD14GIpc"
+        },
+        {
+          "nombre": "Valeria Carbajal Chávez",
+          "area": "Innovación",
+          "link": "https://www.youtube.com/embed/uO_-3mMVZlY"
+        },
+        {
+          "nombre": "Nélida Valencia Cerna",
+          "area": "App & Homebanking",
+          "link": "https://www.youtube.com/embed/Q4mWWHD9kzw"
+        },
+        {
+          "nombre": "Katiusca Carrasquel",
+          "area": "CRM",
+          "link": "https://www.youtube.com/embed/T5gvfKOk74A"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "ciudad": "HUANCAYO",
+      "videos": [
+        {
+          "nombre": "Hector Montes Porras",
+          "area": "Misti",
+          "link": "https://www.youtube.com/embed/2WQ7grELBtI"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "ciudad": "ICA",
+      "videos": [
+        {
+          "nombre": "Antonella Herencia Aquije",
+          "area": "App & Homebanking",
+          "link": "https://www.youtube.com/embed/EOvAOz_SY9E"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "ciudad": "AREQUIPA",
+      "videos": [
+        {
+          "nombre": "Veruska Palomino",
+          "area": "Cobranza",
+          "link": "https://www.youtube.com/embed/S-JSFhiXTlI"
+        },
+        {
+          "nombre": "Erika Machaca Ramos",
+          "area": "App & Homebanking",
+          "link": "https://www.youtube.com/embed/Pq1tZDWUKiw"
+        }
+      ]
+    }
+  ]
+}
+

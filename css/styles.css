@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(249,249,250)
+}
+
+.colornavbar{
+    background-color: rgb(255,255,255)!important;
+}
+
+.cont_map{
+    position: relative;
+    float: left;
+    background-image: url("../img/mapa/mapa_peru.png");
+    background-repeat: no-repeat;
+    width: 722px;
+    height: 768px;
+ }
+
+ .mapa_chiclayo{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/chiclayo.png");
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 54px;
+    margin: 234px 0px 0px 115px;          
+ }
+
+ .mapa_chiclayo:hover{
+    background-image: url("../img/mapa/chiclayo_hover.png");
+ }
+
+ .mapa_trujillo{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/trujillo.png");
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 62px;
+    margin: 284px 0px 0px 147px;       
+ }
+
+ .mapa_trujillo:hover{
+    background-image: url("../img/mapa/trujillo_hover.png");
+ }
+
+ .mapa_lima{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/lima.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 106px;
+    margin: 399px 0px 0px 205px;     
+ }
+
+ .mapa_lima:hover{
+    background-image: url("../img/mapa/lima_hover.png");
+ }
+
+ .mapa_huancayo{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/huancayo.png");
+    background-repeat: no-repeat;          
+    width: 106px;
+    height: 67px;
+    margin: 413px 0px 0px 252px;
+ }
+
+ .mapa_huancayo:hover{
+    background-image: url("../img/mapa/huancayo_hover.png");
+ }
+
+ .mapa_ica{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/ica.png");
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 87px;
+    margin: 490px 0px 0px 254px;     
+ }
+
+ .mapa_ica:hover{
+    background-image: url("../img/mapa/ica_hover.png");
+ }
+
+ .mapa_arequipa{
+    position: absolute;
+    float: left;
+    background-image: url("../img/mapa/arequipa.png");
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 94px;
+    margin: 550px 0px 0px 303px;      
+ }
+
+ .mapa_arequipa:hover{
+    background-image: url("../img/mapa/arequipa_hover.png");
+ }
+
+ .cerrarTamanio{
+    width: 23px;
+    height:23px;
+ }
+
+ .stepTamanio{
+    width:14px;
+    height:14px;
+ }
+
+ .letramediana{
+    font-size:18px;
+ }
+
+ .letrapequenia{
+    font-size:12px;
+ }
+
+ .iframe-container{
+   position: relative;
+   width: 100%;
+   padding-bottom: 56.25%; 
+   height: 0;
+ }
+ .iframe-container iframe{
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+
+ .tamanionavbar{
+    width:100px!important;
+    max-width: 100%!important;
+    min-width: 100%!important;
+ }

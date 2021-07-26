@@ -1,0 +1,99 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">Videos</button>
+        </div>
+    </div>
+</div>
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body pb-0">
+            <header>
+            
+                <span>HUÁNUCO</span> <br>
+                <span class="text-muted">{{nombreU}} Luz Maria - Innovacion</span>
+                <div class="float-right">
+                  <a href="" class="close " data-dismiss="modal" aria-label="Close">
+                    <img src="img/cerrar.svg" class="cerrarTamanio" alt="">
+                  </a>
+                
+                </div>
+            </header>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <!-- <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol> -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bOSbD14GIpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <div class="carousel-caption d-none d-md-block">
+                     
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                   
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/uO_-3mMVZlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="carousel-caption d-none d-md-block">
+                     
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                  
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T5gvfKOk74A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="carousel-caption d-none d-md-block">
+                   
+                    </div>
+                  </div>
+                </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+
+
+            
+        </div>
+        <!-- <div class="modal-footer border-0"> -->
+
+          <div class="d-flex justify-content-center">
+            <div class="p-2">
+              <a href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="0">
+                <img src="img/option.svg" class="stepTamanio" alt="">
+              </a>
+            </div>
+            
+            <div class="p-2">
+              <a ng-click="prueba()" href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="1">
+                <img src="img/option.svg" class="stepTamanio" alt="">
+              </a>
+            </div>
+           <div class="p-2">
+            <a href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="2">
+              <img src="img/option.svg" class="stepTamanio" alt="">
+            </a>
+           </div>
+      
+          </div>
+    
+      </div>
+    </div>
+  </div>
