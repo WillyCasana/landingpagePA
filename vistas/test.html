@@ -14,17 +14,18 @@
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-body pb-0">
+        <div class="modal-header border-0 pb-0">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">HUÁNUCO</h5>  -->
+         
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
             <header>
-            
-                <span>HUÁNUCO</span> <br>
-                <span class="text-muted">{{nombreU}} Luz Maria - Innovacion</span>
-                <div class="float-right">
-                  <a href="" class="close " data-dismiss="modal" aria-label="Close">
-                    <img src="img/cerrar.svg" class="cerrarTamanio" alt="">
-                  </a>
-                
-                </div>
+                <h5>HUÁNUCO</h5>
+                <h6 class="text-muted">{{nombreU}}</h6>
             </header>
 
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -77,22 +78,26 @@
           <div class="d-flex justify-content-center">
             <div class="p-2">
               <a href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="0">
-                <img src="img/option.svg" class="stepTamanio" alt="">
+                <img src="img/option.svg" alt="">
               </a>
             </div>
             
             <div class="p-2">
               <a ng-click="prueba()" href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="1">
-                <img src="img/option.svg" class="stepTamanio" alt="">
+                <img src="img/option.svg" alt="">
               </a>
             </div>
            <div class="p-2">
             <a href="#!/test" data-target="#carouselExampleCaptions" data-slide-to="2">
-              <img src="img/option.svg" class="stepTamanio" alt="">
+              <img src="img/option.svg" alt="">
             </a>
            </div>
       
           </div>
+     
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" data-target="#carouselExampleCaptions" data-slide-to="1" class="btn btn-primary">Segundo</button> -->
+        <!-- </div> -->
     
       </div>
     </div>

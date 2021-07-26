@@ -6,13 +6,82 @@ body{
     background-color: rgb(255,255,255)!important;
 }
 
+.contPrincipal{
+    margin-top: 50px;
+}
+
+.Directions, .logoRuta, .logoFrase{
+    text-align: center;
+}
+
+.contTitulo span{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #52575C;
+    width: 387px;
+}
+
+.contFrase span{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #6B7280;
+    width: 458px;
+    display: block;
+    margin-left: 42px;
+}
+
+.logoMapa img{
+    display: block;
+    width: 295px;
+    height: 189px;
+    margin: 45px 0px 0px 77px;
+}
+
+.letraMpa .msjweb, .letraMpa, .msjweb2, .letraMpa .msjmobile{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #6B7280;
+    display: block;
+    width: 447px;    
+    margin-top: 10px;
+}
+
+.letraMpa .msjmobile{
+    display: none;
+}
+
+.letraMpa .msjweb span{
+    color: #0A3FA8;
+    font-weight: bold;
+}
+
+.posMapa img{
+    display: block;
+    width: 316px;
+    height: 302px;
+    margin: 10px 0px 0px 60px;
+
+}
 .cont_map{
     position: relative;
     float: left;
     background-image: url("../img/mapa/mapa_peru.png");
     background-repeat: no-repeat;
-    width: 722px;
-    height: 768px;
+    width: 744px;
+    height: 722px;
+    padding: 0;
  }
 
  .mapa_chiclayo{
@@ -99,22 +168,177 @@ body{
     background-image: url("../img/mapa/arequipa_hover.png");
  }
 
- .cerrarTamanio{
-    width: 23px;
-    height:23px;
- }
+ @media (max-width: 800px) {
+    .Directions img {
+        display: none;
+    }
+    .logoRuta img{
+        width: 267px;
+        height: 172px;
+    }
 
- .stepTamanio{
-    width:14px;
-    height:14px;
- }
+    .contTitulo span{
+        display: block;
+        width: 245px;
+        line-height: 1;
+        margin: 24px 0px 0px 45px;
+    }
 
- .letramediana{
+    .contFrase span{
+        width: 275px;
+        margin: 25px 0px 0px 30px;
+    }
+
+    .btnIrMapa img{
+        display: block;
+        width: 316px;
+        height: 58px;
+        margin: 15px 0px 0px 9px;
+    }
+
+    .posMapa img{
+        display: none;
+    }
+
+    .letraMpa p{
+        width: 320px;
+    }
+
+    .logoMapa img{
+        display: block;
+        width: 148px;
+        height: 94px;
+        position: absolute;
+        margin: 13px 0px 0px 13px;
+    }
+
+    .letraMpa .msjweb, .letraMpa, .msjweb2, .letraMpa .msjmobile {
+        font-size: 14px;
+        width: 100%;
+    }
+    .letraMpa .msjmobile{
+        display: block;
+        width: 108px;
+        color: #0A3FA8;
+        font-weight: bold;
+        position: absolute;
+        margin: 352px 0px 0px 17px;
+        text-align: left;
+    }
+    .letraMpa .msjweb2{
+        margin: 456px 0px 0px 16px;
+        width: 182px;
+        text-align: left;
+    
+    }
+    
+    .letraMpa .msjweb{
+        display: none;
+    }
+
+    .contMobileMpa, .contLetraMpa, .contLogoMapa{
+        position: absolute;
+        z-index: 1;
+    }
+
+    .contMpaMobile{
+        padding: 0;
+    }
+    .cont_map{        
+        background-image: url("../img/mapa/mobile/mapa_peru.png");
+        width: 360px;
+        height: 580px;
+        margin-left: 0;
+     }
+
+     .mapa_chiclayo{
+        background-image: url("../img/mapa/mobile/chiclayo.png");
+        width: 37px;
+        height: 43px;
+        margin: 201px 0px 0px 39px;   
+        z-index: 1;          
+     }
+
+     .mapa_chiclayo:hover{
+        background-image: url("../img/mapa/mobile/chiclayo_hover.png");
+        z-index: 1;
+     }
+
+     .mapa_trujillo{
+        background-image: url("../img/mapa/mobile/trujillo.png");
+        width: 70px;
+        height: 49px;
+        margin: 239px 0px 0px 64px; 
+        z-index: 1;  
+     }
+
+     .mapa_trujillo:hover{
+        background-image: url("../img/mapa/mobile/trujillo_hover.png");
+        z-index: 1;
+     }
+
+     .mapa_lima{
+        background-image: url("../img/mapa/mobile/lima.png");
+        width: 61px;
+        height: 83px;
+        margin: 327px 0px 0px 109px; 
+        z-index: 1;
+     }
+
+     .mapa_lima:hover{
+        background-image: url("../img/mapa/mobile/lima_hover.png");
+        z-index: 1;
+     }
+
+     .mapa_huancayo{
+        background-image: url("../img/mapa/mobile/huancayo.png");         
+        width: 82px;
+        height: 52px;
+        margin: 339px 0px 0px 146px;
+        z-index: 1;
+     }
+
+     .mapa_huancayo:hover{
+        background-image: url("../img/mapa/mobile/huancayo_hover.png");
+        z-index: 1;
+     }
+
+     .mapa_ica{
+        background-image: url("../img/mapa/mobile/ica.png");
+        width: 48px;
+        height: 68px;
+        margin: 399px 0px 0px 147px; 
+        z-index: 1;
+     }
+
+     .mapa_ica:hover{
+        background-image: url("../img/mapa/mobile/ica_hover.png");
+     }
+
+     .mapa_arequipa{
+        background-image: url("../img/mapa/mobile/arequipa.png");
+        width: 109px;
+        height: 73px;
+        margin: 445px 0px 0px 186px;     
+        z-index: 1;
+    }
+
+     .mapa_arequipa:hover{
+        background-image: url("../img/mapa/mobile/arequipa_hover.png");
+        z-index: 1;
+     }
+  }
+
+.letramediana{
     font-size:18px;
  }
 
  .letrapequenia{
     font-size:12px;
+ }
+ .cerrarTamanio{
+    width: 23px;
+    height:23px;
  }
 
  .iframe-container{
@@ -129,18 +353,4 @@ body{
    left: 0;
    width: 100%;
    height: 100%;
- }
-
- .tamanionavbar{
-    width:100px!important;
-    max-width: 100%!important;
-    min-width: 100%!important;
- }
-
- *{
-    font-family: 'Lato';
- }
-
- .text-primary{
-    color:rgb(10,63,168)!important;
  }

@@ -1,4 +1,3 @@
-
 app.controller('mapaController',function($scope,$http,$sce, $window){
 
     $scope.trustSrc=function(src){
@@ -15,12 +14,10 @@ app.controller('mapaController',function($scope,$http,$sce, $window){
         console.log(dpto);
     })
 
-//    console.log('El listado : ' + deptList);
     //Inicializacion:
     $scope.nomSub="";
     $scope.mesaSub="";
     var indexAct=0;
-
 
     $scope.dpto=dpto;
     $scope.getSlider = function (index) {
@@ -31,7 +28,6 @@ app.controller('mapaController',function($scope,$http,$sce, $window){
         $scope.ciudadTitulo=dpto[indexAct].ciudad;
         $scope.videos=dpto[indexAct].videos;
 
-        //$scope.videosAux=dpto[i].videos;
         $scope.videosAux=dpto[indexAct].videos;
 
         console.log( dpto[indexAct].videos[0].link);
@@ -41,22 +37,11 @@ app.controller('mapaController',function($scope,$http,$sce, $window){
         $scope.nomSub = dpto[indexAct].videos[0].nombre;
         $scope.mesaSub=dpto[indexAct].videos[0].area;
 
-        //carousel-item utilizar el jQuery para desactivar todos y colocar como active al primero(0)
-        //luego tambien marcar el primer radiobutton
-        //Probar en el evento despues del popup a ver si toma efecto:
-        // $('.carousel-item active').addClass('carousel-item').removeClass('carousel-item active');
-        // $('carousel-item').first().attr('class','carousel-item active');
-
-        
-
-
         $('#exampleModal').modal('show');
 
         // if(data == "1")
         // {
         //     data = "Chiclayo";
-        //     $('#exampleModal').modal('show')
-
         // }
         // else if(data == "2")
         // {
@@ -79,21 +64,19 @@ app.controller('mapaController',function($scope,$http,$sce, $window){
         //     data = "Arequipa";
         // }
 
-
+        // $window.alert("Bienvenido a " + data);
 
         $scope.transitar= function(val){
         
-        //   $scope.dpto='Chiclayo';
-        //   $scope.usuario= 'Luz Maria';
-        //   $scope.mesa='Innovación';
-        var valInt = parseInt(val);
-
-        $scope.nomSub = dpto[indexAct].videos[valInt].nombre;
-        $scope.mesaSub=dpto[indexAct].videos[valInt].area;
-
-          $("#carouselExampleCaptions").carousel(valInt);
-        }
-
+            //   $scope.dpto='Chiclayo';
+            //   $scope.usuario= 'Luz Maria';
+            //   $scope.mesa='Innovación';
+            var valInt = parseInt(val);
     
+            $scope.nomSub = dpto[indexAct].videos[valInt].nombre;
+            $scope.mesaSub=dpto[indexAct].videos[valInt].area;
+    
+              $("#carouselExampleCaptions").carousel(valInt);
+            }
     }
 })

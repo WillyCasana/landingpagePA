@@ -1,5 +1,3 @@
-
-
 const app = angular.module('rutaIApp', ['ngRoute']);
 app.config(function($routeProvider){
     $routeProvider
@@ -19,8 +17,6 @@ app.config(function($routeProvider){
 
 });
 app.controller('rutaIController',function($scope){
-  
-
     $scope.irMapa=function(){
         window.location.href="#!/mapa";
     }

@@ -1,193 +1,156 @@
 <div class="container">
     <div class="row">
-        <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="row">
-                <div class="col col-md-12">
+        <div class="col col-md-6 contMobileMpa">
+            <div class="row contLogoMapa">
+                <div class="logoMapa">
                     <img src="img/logoMapa.svg" alt="">
                 </div>
             </div>
-            <div class="row mt-2">
-                <div class="col col-md-12">
-                    <p class="text-center text-muted ">El homeoffice nos dio la oportunidad de conocer 
-                      profesionales a lo largo de todo el Perú, <span class="text-primary font-weight-bold"> conócelos dándole
-                      clic a uno de estos departamentos y escucha sus historias.</span> </p>
-
-                    <p class="text-center text-muted">¡En <span class="font-weight-bold">CajaLab</span>  seguimos descentralizando el talento!</p>
-                    <!-- <img src="img/letraMapa.svg" alt=""> -->
-
+            <div class="row mt-2 contLetraMpa">
+                <div class="letraMpa">
+                    <p class="msjweb">
+                        El homeoffice nos dio la oportunidad de conocer profesionales a lo largo de todo el Perú, <span>conócelos dándole clic a uno de estos departamentos y escucha sus historias.</span> 
+                    </p>
+                    <p class="msjmobile">
+                        Haz clic a uno de estos departamentos y escucha sus historias. 
+                    </p>
+                    <p class="msjweb2">¡En <b>Cajalab</b> seguimos descentralizando el talento!</p> 
                 </div>
             </div>
        
             <div class="row mt-4">
-                <div class="col col-md-12">
+                <div class="posMapa">
                     <img src="img/posMapa.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="cont_map ">
-                <a class="mapa_chiclayo " href="javascript:void(0);" ng-click="getSlider('0');"></a>
-                <a class="mapa_trujillo " href="javascript:void(0);" ng-click="getSlider('1');"></a>
-                <a class="mapa_lima " href="javascript:void(0);" ng-click="getSlider('2');"></a>
-                <a class="mapa_huancayo " href="javascript:void(0);" ng-click="getSlider('3');"></a>
-                <a class="mapa_ica " href="javascript:void(0);" ng-click="getSlider('4');"></a>
-                <a class="mapa_arequipa " href="javascript:void(0);" ng-click="getSlider('5');"></a>
+        <div class="col col-md-6 contMpaMobile">
+            <div class="cont_map">
+                <a class="mapa_chiclayo" href="javascript:void(0);" ng-click="getSlider('0');"></a>
+                <a class="mapa_trujillo" href="javascript:void(0);" ng-click="getSlider('1');"></a>
+                <a class="mapa_lima" href="javascript:void(0);" ng-click="getSlider('2');"></a>
+                <a class="mapa_huancayo" href="javascript:void(0);" ng-click="getSlider('3');"></a>
+                <a class="mapa_ica" href="javascript:void(0);" ng-click="getSlider('4');"></a>
+                <a class="mapa_arequipa" href="javascript:void(0);" ng-click="getSlider('5');"></a>
             </div> 
         </div>
     </div>
+</div>
 
-    <div class="row">
-      <div class="col">
-             <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog  modal-dialog-centered">
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
         <div class="modal-content">
-          <div class="modal-body pb-0">
-              <header>
-                  <div class="d-flex justify-content-between">
-                      <div class="form-group mb-2">
-                          <span class="letramediana"> <strong>{{ciudadTitulo}}</strong> </span> <br>
-                          <span class="text-muted letrapequenia">{{nomSub}} - {{mesaSub}}</span>
-                      </div>
-                      <div class="form-group">
-                          <a href="" class="close " data-dismiss="modal" aria-label="Close">
-                              <img src="img/cerrar.svg" class="cerrarTamanio" alt="">
+        <div class="modal-body pb-0">
+            <header>
+                <div class="d-flex justify-content-between">
+                    <div class="form-group mb-2">
+                        <span class="letramediana"> <strong>{{ciudadTitulo}}</strong> </span> <br>
+                        <span class="text-muted letrapequenia">{{nomSub}} - {{mesaSub}}</span>
+                    </div>
+                    <div class="form-group">
+                        <a href="" class="close " data-dismiss="modal" aria-label="Close">
+                            <img src="img/cerrar.svg" class="cerrarTamanio" alt="">
                             </a>
-                      </div>
-                  </div>
+                    </div>
+                </div>
                 
-              </header>
+            </header>
 
-              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-touch="false" data-interval="false">
-                  <!-- <ol class="carousel-indicators">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-touch="false" data-interval="false">
+                <!-- <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                  </ol> -->
+                </ol> -->
 
 
-                  <div class="carousel-inner">
+                <div class="carousel-inner">
                     <!-- <div class="carousel-item active">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/bOSbD14GIpc" title="YouTube video player"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bOSbD14GIpc" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                     </div>
                     <div class="carousel-item">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/uO_-3mMVZlY" title="YouTube video player"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uO_-3mMVZlY" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                     </div>
                     <div class="carousel-item">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/T5gvfKOk74A" title="YouTube video player"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T5gvfKOk74A" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                     </div> -->
 
                     <!-- <div class="carousel-item active" ng-repeat="v in videosAux">
-                      {{v.link}}
-                  
-                      <iframe width="560" height="315" ng-src="{{trustSrc(v.link)}}" title="YouTube video player"
+                    {{v.link}}
+                
+                    <iframe width="560" height="315" ng-src="{{trustSrc(v.link)}}" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                     </div> -->
 
                     <div ng-class="$index ===0? 'carousel-item active' : 'carousel-item' " ng-repeat="v in videosAux">
 
-                      <div  class="iframe-container">
-                          <iframe width="560" height="315" ng-src="{{trustSrc(v.link)}}" title="Ruta Innovación Videos"
-                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen>
-                          </iframe>
-                      </div>
-                  
+                    <div  class="iframe-container">
+                        <iframe width="560" height="315" ng-src="{{trustSrc(v.link)}}" title="Ruta Innovación Videos"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        </iframe>
+                    </div>
+                
 
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                     </div>
 
 
-                  </div>
-              </div>
+                </div>
+            </div>
 
 
-              
-          </div>
+            
+        </div>
 
 
             <div class="d-flex justify-content-center" >
 
-                  <!-- <div class="form-check">
+                <!-- <div class="form-check">
                     <input class="form-check-input" ng-click="transitar(0)" type="radio" name="exampleRadios" id="exampleRadios1"
-                      value="option1" checked>
+                    value="option1" checked>
                     <label class="form-check-label" for="exampleRadios1">
                     </label>
-                  </div>
-                  <div class="form-check">
+                </div>
+                <div class="form-check">
                     <input class="form-check-input" ng-click="transitar(1)" type="radio" name="exampleRadios" id="exampleRadios2"
-                      value="option2">
+                    value="option2">
                     <label class="form-check-label" for="exampleRadios2">
                     </label>
-                  </div>
-                  <div class="form-check">
+                </div>
+                <div class="form-check">
                     <input class="form-check-input" ng-click="transitar(2)" type="radio" name="exampleRadios" id="exampleRadios3"
-                      value="option3">
+                    value="option3">
                     <label class="form-check-label" for="exampleRadios3">
                     </label>
-                  </div> -->
+                </div> -->
 
-                  <div class="form-check" ng-repeat="v in videos">
+                <div class="form-check" ng-repeat="v in videos">
                     <input class="form-check-input" ng-click="transitar($index)" type="radio" name="exampleRadios" id="exampleRadios1{{$index}}"
-                      value="option1{{$index}}" ng-checked="{{$index===0}}">
+                    value="option1{{$index}}" ng-checked="{{$index===0}}">
                     <label class="form-check-label" for="exampleRadios1{{$index}}">
                     </label>
-                  </div>
-                  
+                </div>
+                
             </div>
-      
+    
         </div>
-      </div>
     </div>
-      </div>
-    </div>
-
-   
 </div>
-
-
-  <script>
-
-        // $('#carouselExampleCaptions').on('slide.bs.carousel', function () {
-        //        console.log('evento del carousel');
-              
-        //        if (sessionStorage.slideAct ===undefined){
-        //        // sessionStorage.slideAct =0;
-        //        } else{
-        //        // sessionStorage.slideAct = parseInt( sessionStorage.slideAct) +1;
-        //        }
-        //        console.log('valor del sessionStorage' + sessionStorage.slideAct);
-        //       // $("#exampleRadios2").prop("checked", true);
-        //     })
-
-
-        $('.modal-content').resizable({
-            //alsoResize: ".modal-dialog",
-            minHeight: 300,
-            minWidth: 300
-          });
-          $('.modal-dialog').draggable();
-
-          $('#exampleModal').on('show.bs.modal', function () {
-            $(this).find('.modal-body').css({
-              'max-height': '100%'
-            });
-          });
-           
-  </script>
