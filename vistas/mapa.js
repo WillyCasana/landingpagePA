@@ -28,6 +28,10 @@ app.controller('mapaController',function($scope,$http,$sce, $window){
         $scope.ciudadTitulo=dpto[indexAct].ciudad;
         $scope.videos=dpto[indexAct].videos;
 
+        if ($scope.videos.length ===1){
+            $scope.videos=undefined;
+        }
+
         $scope.videosAux=dpto[indexAct].videos;
 
         console.log( dpto[indexAct].videos[0].link);

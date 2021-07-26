@@ -19,8 +19,11 @@ app.config(function($routeProvider){
 app.controller('rutaIController',function($scope){
     $scope.irMapa=function(){
         window.location.href="#!/mapa";
+        location.reload();
+
     }
-    $scope.irInicion=function(){
+    $scope.irInicio=function(){
         window.location.href="#!/";
+       
     }
 })
