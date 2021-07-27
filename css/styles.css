@@ -171,6 +171,10 @@ body{
  }
 
  @media (max-width: 800px) {
+    .Directions{
+        display: none;
+    }
+
     .Directions img {
         display: none;
     }
@@ -378,3 +382,38 @@ body{
  .altoRB{
     height:24px;
  }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen 
+and (min-device-width: 413px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .contTitulo span{
+        width: 290px;
+    }
+
+    .cont_map{
+        width: 414px !important;
+    }
+    
+    .contFrase span{
+        width: 319px !important;
+    }
+
+    .btnIrMapa img{
+        width: 362px !important;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .cont_map{
+        width: 375px;
+    }
+}
